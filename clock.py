@@ -3,7 +3,7 @@ import tweet
 
 tweetschedule = BlockingScheduler()
 
-@tweetschedule.scheduled_job('interval', minutes=2)
+@tweetschedule.scheduled_job('interval', minutes=1)
 def timed_job():
     tweet.puttweet()
 
