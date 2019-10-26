@@ -1,7 +1,7 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
 import tweet
 
-tweetschedule = BlckingScheduler()
+tweetschedule = BlockingScheduler()
 
 @tweetschedule.scheduled_job('interval', minutes=720)
 def timed_job():
