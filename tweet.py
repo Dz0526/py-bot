@@ -13,4 +13,4 @@ def puttweet():
 
     api = tweepy.API(auth)
 
-    api.update_status("heroku,py乙")
+    api.update_status("py乙")
